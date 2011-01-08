@@ -123,7 +123,7 @@ a:hover {
   color: #555555;
   text-decoration: none;
 }
-p, ul, ol, dl {
+p, ul, ol, dl, img {
   font-size: 1.0625em;
   line-height: 1.4118;
   margin: 0 0 1.4118em 0;

@@ -1,10 +1,10 @@
 ---
 layout: default
 style: showcase
-title: 001_the_minimum
+title: 000_the_minimum
 ---
-![Top page](http://placehold.it/460x395){:class='left'}
-![Post page](http://placehold.it/460x395){:class='right'}
+![Top page](/img/top.png){:class='left'}
+![Post page](/img/post.png){:class='right'}
 
 ##About the\_minimum
 

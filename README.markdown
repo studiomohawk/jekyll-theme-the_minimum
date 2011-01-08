@@ -8,4 +8,4 @@ Tags: diy,minimum
 See LICENSE for term of use.
 
 If you like what I'm doing you could give me an invite for [Forrest](http://forrst.com) or [Dribbble](http://dribbble.com).
-You can contact with me @[cssradar](http://twitter.com/#!/cssradar)
+You can contact with me @[cssradar](http://twitter.com/#!/cssradar) or I guess you can send me a message on github.

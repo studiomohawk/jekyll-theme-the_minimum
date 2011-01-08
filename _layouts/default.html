@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/grid.css">
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/mod.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/modernizr.js"></script>
+	<title>{% if page.style != 'home' %} {{ page.title }} | {% endif %}{{ site.sitename }} {{ site.tagline }}</title>
+	<meta name="description" content="">
+</head>
+<body class="{{ page.style }}">
+	<div id="page">
+		<header id="head">
+		<div class="head_inner">
+			<ul>
+				<li class="logo"><a href="/">{{ site.sitename }}</a></li>
+				<li class="tagline">{{ site.tagline }}</li>
+			</ul>
+		</div>
+		</header><!-- id="head" -->
+		<div id="main" role="main">
+			<div class="main_inner">
+				<header class="hd_article">
+					<h1>{{ page.title }}</h1>
+				</header>
+				<article class="the_article">
+				<div class="article_inner">
+					<div class="content">{{ content }}</div>
+				</div>
+				</article>
+			</div>
+		</div><!-- id="main" -->
+		<nav class="pagenation">
+		<ul>
+		{% if page.previous %}
+			<li class="before left"><a rel="prev" href="{{ page.previous.url }}" class="btn" title="View {{ page.previous.title }}">Before</a>
+		{% endif %}
+		{% if page.next %}
+			<li class="next right"><a rel="next" href="{{ page.next.url }}" class="btn" title="View {{ page.next.title }}">Next</a></li>
+		{% endif %}
+		</ul>
+		</nav>
+		<footer id="foot">
+		<div class="foot_inner">
+			<div class="hasGrid">
+				<div class="grid grid-6">{% include about.html %}</div>
+				<div class="grid grid-6">{% include misc.html %}</div>
+			</div>
+		</footer><!-- id="foot" -->
+	</div><!-- id="page" -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+{% include ga.html %}
+</body>
+</html>

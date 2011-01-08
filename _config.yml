@@ -1,0 +1,10 @@
+#Presentation Settings
+sitename: the_minimum
+tagline: themes for jekyll
+#Deployment Settings
+pygments:    false
+markdown:    kramdown
+permalink:   pretty
+kramdown:
+  auto_ids: false
+exclude: LICENSE, README.markdown

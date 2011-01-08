@@ -1,9 +1,9 @@
-Theme Name: the\_minimum
-Theme URI: http://layouts.studiomohawk.com/
-Description: A minimum theme for [jekyll](https://github.com/mojombo/jekyll).
-Author: Yuya Saito
-Version: 1.0
-Tags: diy,minimum
+* Theme Name: the\_minimum
+* Theme URI: http://layouts.studiomohawk.com/
+* Description: A minimum theme for [jekyll](https://github.com/mojombo/jekyll).
+* Author: Yuya Saito
+* Version: 1.0
+* Tags: diy,minimum
 
 ###Note:
 You could use this theme almost as is. But There are several things you have to do before you use this theme.

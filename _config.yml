@@ -1,10 +1,9 @@
 #Presentation Settings
 sitename: the_minimum
 tagline: themes for jekyll
+url: http://your.site.com
 #Deployment Settings
 pygments:    false
-markdown:    kramdown
+markdown:    maruku
 permalink:   pretty
-kramdown:
-  auto_ids: false
 exclude: LICENSE, README.markdown

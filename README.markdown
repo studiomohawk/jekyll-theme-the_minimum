@@ -5,7 +5,12 @@ Author: Yuya Saito
 Version: 1.0
 Tags: diy,minimum
 
-See LICENSE for term of use.
+*Note:* You could use this theme almost as is. One thing you have to do is to open up \_includes/ga.html and edit UA-XXXXX-X with your site ID on Google Analytics.
+If you don't need stats then delete {% include ga.html %} line on \_layouts\defaoult.htm.
+
+This theme use *style* variable in [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) to change some css rules, use *text* for default design. If you like to showcasing your or other works like in [my blog](http://layouts.studiomohawk.com/), use *showcase*.
 
 If you like what I'm doing you could give me an invite for [Forrest](http://forrst.com) or [Dribbble](http://dribbble.com).
 You can contact with me @[cssradar](http://twitter.com/#!/cssradar) or I guess you can send me a message on github.
+
+See LICENSE for term of use.

@@ -11,7 +11,7 @@ title: 001_the_minimum
 the\_minimum is my first attempt for theming jekyll and this theme is used for [\_layout - themes for jekyll](http://layouts.studiomohawk.com).
 This theme(or any other jekyll theme I design) is using HTML5 and CSS3.
 
-[Download](https://github.com/studiomohawk){:class='btn download'}
+[Download](https://github.com/studiomohawk/jekyll-theme-the_minimum){:class='btn download'}
 
 ###Note
 I really don't care about IE at all. Not even IE9.(May work just fine)

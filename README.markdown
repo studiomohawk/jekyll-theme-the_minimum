@@ -7,6 +7,7 @@
 
 ###Note:
 You could use this theme almost as is. But There are several things you have to do before you use this theme.
+
 * open up \_config.yml 
   You need to change sitename, tagline and url value to make theme work nicely. It still works if you didn't but if you publish as your site using this theme, then you must change them.
 

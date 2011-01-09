@@ -16,7 +16,7 @@ You could use this theme almost as is. But There are several things you have to 
 
 This theme use *style* variable in [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter) to change some css rules, use *text* for default design. If you like to showcasing your or other works like in [my blog](http://layouts.studiomohawk.com/), use *showcase*.
 
-If you like what I'm doing you could give me an invite for [Forrest](http://forrst.com) or [Dribbble](http://dribbble.com).
+If you like what I'm doing you could give me an invite for <del>[Forrest](http://forrst.com)</del>(I've got it! Thanks!) or [Dribbble](http://dribbble.com).
 You can contact with me @[cssradar](http://twitter.com/#!/cssradar) or I guess you can send me a message on github.
 
 See LICENSE for term of use.

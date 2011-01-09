@@ -65,10 +65,6 @@ nav ul {
 .the_article ol { list-style: decimal; }
 .the_article img.left { margin-right: 12px; }
 .the_article img.right { margin-left: 12px; }
-.the_article p:last-child { margin-bottom: 0; }
-.the_article ul:last-child { margin-bottom: 0; }
-.the_article ol:last-child { margin-bottom: 0; }
-.the_article dl:last-child { margin-bottom: 0; }
 body.home .hd_article { display: none; }
 body.home .the_article { background: none; }
 body.home .the_article .posts li {

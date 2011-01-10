@@ -4,7 +4,7 @@
  <title>the_minimum | themes for jekyll</title>
  <link href="http://your.site.comatom.xml" rel="self"/>
  <link href="http://your.site.com"/>
- <updated>2011-01-10T19:51:40+09:00</updated>
+ <updated>2011-01-10T19:53:07+09:00</updated>
  <id>http://layouts.studiomohawk.com/</id>
 
  
@@ -85,9 +85,7 @@
 
 &lt;h3 id='changelog'&gt;changelog&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;2011_01_08 - Initial release.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;p&gt;Refer this at github.&lt;/p&gt;</content>
  </entry>
  
  <entry>

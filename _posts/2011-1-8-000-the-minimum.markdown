@@ -18,4 +18,4 @@ I really don't care about IE at all. Not even IE9.(May work just fine)
 You can ask me questions but don't expect me to make this compatible with IE.
 
 ###changelog
-* 2011\_01\_08 - Initial release. 
+Refer this at github.

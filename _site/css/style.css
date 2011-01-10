@@ -94,6 +94,9 @@ body.text img {
   border-top: 1px solid #ffffff;
   padding: 10px;
   background: #f0f0f0;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 body.showcase .the_article p:first-child {
   overflow: hidden;

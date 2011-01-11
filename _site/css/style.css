@@ -47,6 +47,21 @@ nav ul {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #070810), color-stop(100%, #343738));
   text-decoration: none;
 }
+a:link {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px dotted #1a1a1a;
+}
+a:visited {
+  color: #383838;
+  text-decoration: none;
+  border-bottom: 1px dotted #383838;
+}
+a:hover {
+  color: #555555;
+  text-decoration: none;
+  border-bottom: 1px dotted #555555;
+}
 #head { margin-bottom: 24px; }
 #head ul li {
   display: inline-block;
@@ -54,6 +69,9 @@ nav ul {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .logo { font-size: 4.5em; }
+.logo a:link { border-bottom: 0 none; }
+.logo a:visited { border-bottom: 0 none; }
+.logo a:hover { border-bottom: 0 none; }
 .tagline { margin-left: 5px; }
 .hd_article .btn { margin-top: 3px; }
 .the_article {

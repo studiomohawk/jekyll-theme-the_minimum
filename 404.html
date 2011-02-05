@@ -1,0 +1,36 @@
+---
+layout: nil
+title: 404 - Not Found
+desctiption: CSS Radarへの記事のリクエストはTwitterで受け付けています
+---
+{% include system_head.html %}
+<body class="{{ page.layout }}">
+	<div id="page">
+		{% include header.html %}
+		<div id="main" role="main">
+			<article class="the-article">
+			<div class="article-inner">
+				<div class="content">
+					<header>
+					<div class="head-inner">
+						<h1>{{ page.title }}</h1>
+					</div>
+					</header>
+					<div class="bd">
+						<p>記事のリクエストは<a href="http://twitter.com/#!/cssradar">Twitter @ cssradar</a>まで</p>
+						<h2>Recent Articles</h2>
+						<ul class="recent">
+							{% for post in site.posts limit:10 %}
+							<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			</article>
+		</div><!-- id="main" -->
+		{% include footer.html %}
+	</div><!-- id="page" -->
+	{% include system_foot.html %}
+</body>
+</html>

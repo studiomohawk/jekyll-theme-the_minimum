@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>the_minimum | themes for jekyll</title>
- <link href="http://your.site.comatom.xml" rel="self"/>
+ <link href="http://your.site.com/atom.xml" rel="self"/>
  <link href="http://your.site.com"/>
- <updated>2011-01-15T01:03:39+09:00</updated>
+ <updated>2011-02-06T00:13:32+09:00</updated>
  <id>http://layouts.studiomohawk.com/</id>
 
  

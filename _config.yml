@@ -1,9 +1,11 @@
-#Presentation Settings
+# MUST EDIT BELOW
 sitename: the_minimum
 tagline: themes for jekyll
 url: http://your.site.com
-#Deployment Settings
+# END
+# CHOOSE YOUR PREFERENCE
 pygments:    false
 markdown:    maruku
 permalink:   pretty
+# END
 exclude: LICENSE, README.markdown

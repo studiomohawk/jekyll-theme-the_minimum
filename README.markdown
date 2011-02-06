@@ -1,14 +1,14 @@
 * Theme Name: the\_minimum
 * Description: A minimumlist theme for [jekyll](https://github.com/mojombo/jekyll).
 * Author: Yuya Saito @ [\_layout](http://layouts.studiomohawk.com)
-* Version: 1.5
+* Version: 1.5.1
 
 ## About the\_minimum
 
 * Using HTML5 and CSS3 for clean semantic code
 * Responsive web design which means design adapt screen size
 * Main stylesheet(style.less) is written with LESS
-* Rakefile to minify css
+* Rakefile to minify css (rake juicer:css)
 
 ## This theme is free but some strings are atteched
 
@@ -20,6 +20,8 @@
 * Most of things you can do with this theme is presented at
   \_posts/001-post-example.markdown
 * If you want to use image in your article, theme includes [jekyll-postfiles](https://github.com/indirect/jekyll-postfiles) plugin go visit the page to learn how to use it
+* If you want add some stylesheet, you should eidt style.less. if you need to
+  add stylesheet then remember to put stylesheet file name in master.css
 * If you have questions, you can do so at [issue page](https://github.com/studiomohawk/jekyll-theme-the_minimum/issues)
 
 ## Code I didn't write

@@ -12,7 +12,7 @@
 
 * Most of things you can do with this theme is presented at
   \_posts/001-post-example.markdown
-
+* If you want to use image in your article, theme includes [jekyll-postfiles](https://github.com/indirect/jekyll-postfiles) plugin go visit the page to learn how to use it
 * If you have questions, you can do so at [issue page](https://github.com/studiomohawk/jekyll-theme-the_minimum/issues)
 
 ## Code I didn't write

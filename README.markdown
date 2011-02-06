@@ -13,7 +13,7 @@
 * Most of things you can do with this theme is presented at
   \_posts/001-post-example.markdown
 
-* If you have questions, you can do so at [issue page}(https://github.com/studiomohawk/jekyll-theme-the_minimum/issues)
+* If you have questions, you can do so at [issue page](https://github.com/studiomohawk/jekyll-theme-the_minimum/issues)
 
 ## Code I didn't write
 

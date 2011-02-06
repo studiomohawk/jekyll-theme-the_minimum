@@ -3,12 +3,16 @@
 * Author: Yuya Saito @ [\_layout](http://layouts.studiomohawk.com)
 * Version: 1.5
 
+## About the\_minimum?
+
+
+
 ## This theme is free but some strings are atteched
 
 * Edit \_config.yml - open the file and edit whare you need.
 * Then you can start using it for free
 
-## How to do X?
+## How to use?
 
 * Most of things you can do with this theme is presented at
   \_posts/001-post-example.markdown

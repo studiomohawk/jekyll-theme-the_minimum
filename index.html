@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
 title: _layouts
+desctiption: this is where your meta description for top page.
 ---
 <nav>
 <ul class="posts">
@@ -8,7 +9,6 @@ title: _layouts
 	<li>
 	<a href="{{ post.url }}" class="h3">{{ post.title }}</a>
 	<small>
-		<span class="tag">post as {{ post.style }}:</span>
 		<date>{{ post.date | date_to_string }}</date>
 	</small>
 	</li>

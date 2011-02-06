@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="{{ page.sitemap }}">
+	<link href="{{ site.url }}atom.xml" rel="alternate" title="{{ site.sitename }} | {{ site.tagline }}" type="application/atom+xml">
+	<link rel="stylesheet" href="/css/master.css">
+	<script src="/js/modernizr.js"></script>
+	{% case page.layout %}
+	{% when 'home' %}
+		<title>{{ site.sitename }} | {{ site.tagline }}</title>
+		<meta name="description" content="{{ page.desctiption }}">
+	{% when 'post' %}
+		<title>{{ page.title }} | {{ site.sitename }} | {{ site.tagline }}</title>
+		<meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
+	{% else %}
+		<title>{{ page.title }} | {{ site.sitename }} | {{ site.tagline }}</title>
+		<meta name="description" content="{{ page.desctiption }}">
+	{% endcase %}
+</head>

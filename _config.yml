@@ -1,7 +1,9 @@
 # MUST EDIT BELOW
-sitename: the_minimum
-tagline: themes for jekyll
-url: http://your.site.com
+sitename: the_minimum       #Your site title
+tagline: themes for jekyll  #You should always have a tagline
+url: http://your.site.com   #URL Please
+ga: UA-XXXXX-X              #Google Analytics ID
+sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
 # END
 # CHOOSE YOUR PREFERENCE
 pygments:    false

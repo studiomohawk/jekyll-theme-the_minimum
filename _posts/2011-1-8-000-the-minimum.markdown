@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 style: showcase
 title: 000_the_minimum
 ---

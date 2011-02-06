@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="{{ site.url }}atom.xml" rel="alternate" title="{{ site.sitename }} | {{ site.tagline }}" type="application/atom+xml" />
-	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="/css/grid.css">
-	<link rel="stylesheet" href="/css/base.css">
-	<link rel="stylesheet" href="/css/mod.css">
-	<link rel="stylesheet" href="/css/style.css">
-	<script src="/js/modernizr.js"></script>
-	<title>{% if page.style != 'home' %} {{ page.title }} | {% endif %}{{ site.sitename }} | {{ site.tagline }}</title>
-	<meta name="description" content="">
-</head>
-<body class="{{ page.style }}">
+{% include system_head.html %}
+<body class="{{ page.layout }}">
 	<div id="page">
 		<header id="head">
 		<div class="head_inner">
@@ -57,7 +39,6 @@
 			</div>
 		</footer><!-- id="foot" -->
 	</div><!-- id="page" -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
-{% include ga.html %}
+	{% include system_foot.html %}
 </body>
 </html>

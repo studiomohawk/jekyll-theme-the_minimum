@@ -68,11 +68,24 @@ h6, .h6 {
 	line-height: 1.5;
 	margin: 1.5em 0;
 }
-			
+/* LINK
+-------------------------------------------------------- */
+a:link {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+a:visited {
+	color: #383838;
+	text-decoration: none;
+}
+a:hover {
+	color: #555555;
+	text-decoration: none;
+}
 /* P UL OL DL, IMG
 -------------------------------------------------------- */
 p, ul, ol, dl, img {
-	font-size:1.0625em;
+	font-size: 1.0625em;
 	line-height: 1.4118;
 	margin: 0 0 1.4118em 0;
 }
@@ -93,4 +106,3 @@ em { font-weight: bold; }
 	font-weight: normal;
 	line-height: inherit;
 }
-

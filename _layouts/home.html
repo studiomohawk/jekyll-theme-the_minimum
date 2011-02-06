@@ -1,0 +1,18 @@
+{% include system_head.html %}
+<body class="{{ page.layout }}">
+	<div id="page">
+		{% include header.html %}
+		<div id="main" role="main">
+			<div class="main_inner">
+				<article class="the_article">
+				<div class="article_inner">
+					<div class="content">{{ content }}</div>
+				</div>
+				</article>
+			</div>
+		</div><!-- id="main" -->
+		{% include footer.html %}
+	</div><!-- id="page" -->
+	{% include system_foot.html %}
+</body>
+</html>

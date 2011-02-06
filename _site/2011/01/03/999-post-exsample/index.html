@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="">
 	<link href="http://your.site.comatom.xml" rel="alternate" title="the_minimum | themes for jekyll" type="application/atom+xml">
-	<link rel="stylesheet" href="/css/master.css">
+	<link rel="stylesheet" media="all" href="/css/master.css">
 	<script src="/js/modernizr.js"></script>
 	
 		<title>999_post_example | the_minimum | themes for jekyll</title>
@@ -18,7 +18,7 @@
 
 <body class="post">
 	<div id="page">
-		<header id="head">
+				<header id="head">
 		<div class="head_inner">
 			<ul>
 				<li class="logo"><a href="/">the_minimum</a></li>
@@ -26,10 +26,19 @@
 			</ul>
 		</div>
 		</header><!-- id="head" -->
+
 		<div id="main" role="main">
 			<div class="main_inner">
 				<header class="hd_article">
 					<h1>999_post_example</h1>
+						<div class="meta">
+							<date title="2011-01-03T00:00:00+09:00">
+								<span class="published">Published: </span>
+								<span class="day">03</span>
+								<span class="month"><abbr>Jan</abbr></span>
+								<span class="year">2011</span>
+							</date>
+						</div>
 				</header>
 				<article class="the_article">
 				<div class="article_inner">
@@ -99,9 +108,9 @@
 		</ul>
 		</nav>
 		<footer id="foot">
-		<div class="foot_inner">
-			<div class="hasGrid">
-				<div class="grid grid-6"><h4>about</h4>
+<div class="foot_inner">
+	<div class="hasGrid">
+		<div class="left alpha grid-6"><h4>about</h4>
 <p>
 _layouts is a theme gallary for Jekyll powered websites. Themes are created by me, Yuya Saito who is an web designer/frontend developer in Tokyo, Japan.<br>
 Unless otherwise noted, themes here are all MIT licenced which means you can do whatever you want as long as you don't sue me. <br>
@@ -109,7 +118,7 @@ You can read more detail on my github repository.<br>
 And of course, this site is powerd by <a href="https://github.com/mojombo/jekyll">jekyll</a>.<br>
 </p>
 </div>
-				<div class="grid grid-6"><h4>if you like what i've done</h4>
+		<div class="right omega grid-6"><h4>if you like what i've done</h4>
 <ul>
 	<li>you could give me an invite for <del><a href="http://forrst.com/">Forrst</a></del> <a href="http://forrst.com/people/studiomohawk">I've got it</a>. Thanks! or <a href="http://dribbble.com/">Dribbble</a> Now <a href="http://dribbble.com/cssradar">I'm a prospect</a></li>
     <li>or you can follow me at <a href="http://twitter.com/#!/cssradar" rel="me">Twitter</a></li>
@@ -119,15 +128,16 @@ And of course, this site is powerd by <a href="https://github.com/mojombo/jekyll
 	<li><a href="http://twitter.com/#!/cssradar" rel="me">cssradar@twitter</a></li>
 </ul>
 </div>
-			</div>
-		</footer><!-- id="foot" -->
+	</div>
+</footer><!-- id="foot" -->
+
 	</div><!-- id="page" -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
 <script src="/js/less-grid.js"></script>
 <!-- You may want to stats with your blog if not you should erase this file and remove inculude link from 
 You don't need to edit this file, you can set your ID at _config.yml -->
 <script>
-	var _gaq = [['_setAccount', ''], ['_trackPageview']];
+	var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
 	(function(d, t) {
 		var g = d.createElement(t),
         s = d.getElementsByTagName(t)[0];

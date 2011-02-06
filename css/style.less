@@ -94,16 +94,15 @@ a:hover {
 	background: #fafafa;
 	.article_inner {
 		padding-top: 24px;
-		padding-bottom: 48px;
+		padding-bottom: 24px;
 	}
 	ul { list-style: square; }
 	ol { list-style: decimal; }
 	img.left { margin-right: 12px; }
 	img.right { margin-left: 12px; }
 }
-/* If style is home */
+/* If home */
 body.home {
-	.hd_article { display: none; }
 	.the_article { background: none;
 	.posts li {
 		border-bottom: 1px dotted #a7a7a7;
@@ -124,30 +123,57 @@ body.home {
 	.posts li:last-child { margin-bottom: 0; }
 	}
 }
-/* If style is text */
-body.text {
+/* If post */
+body.post {
+	.hd_article {
+		h1 { margin-bottom: 0; }
+		.meta { margin-bottom: 24px; }
+	}
 	.content {
-		*display: inline;
-		float: right;
-		width: 630px;
-	}
-	img {
-		outline: 1px solid #ddd;
-		border-top: 1px solid #fff;
-		padding: 10px;
-		background: #f0f0f0;
-		margin-right: auto;
-		margin-left: auto;
-		display: block;
+		h1, h2, h3, h4, h5, h6 {
+			a:link { border: 0; }
+			a:visited { border: 0; }
+			a:hover { border: 0; }
+		}
+		blockquote {
+			border-left: 1em solid #eceded;
+			padding-left: 1em;
+			p { margin-left: 0; }
+		}
+		ul { list-style: square; }
+		ol { list-style: decimal; }
+		p code, li code {
+			background-color: rgba(75, 77, 69, 0.8);
+			padding: 0 5px;
+		}
+		img {
+			background: #f0f0f0;
+			border-top: 1px solid #fff;
+			display: block;
+			outline: 1px solid #ddd;
+			padding: 10px;
+		}
+		img.left { margin-right: 14px; }
+		img.right { margin-left: 14px; }
+		img.huge {
+			position: relative;
+			clear: both;
+		}
+		.highlight { margin-bottom: 1.5em; }
+		.highlight:before {
+			content: "Source code:";
+			display: block;
+			margin: 0 0 7px 7px;
+		}
+		.highlight pre {
+			border: 1px solid #ddd; 
+			margin-left: 0;
+			padding: 10px;
+			overflow: auto;
+		}
 	}
 }
-/* If style is showcase */
-body.showcase {
-	.the_article {
-		p:first-child { overflow: hidden; zoom: 1; width: 960px; }
-		p { width: 630px; }
-	}
-}
+
 /* NAV.pagenation
 ----------------------------------------------- */
 .pagenation {

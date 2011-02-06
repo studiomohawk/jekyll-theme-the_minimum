@@ -6,7 +6,7 @@ ga: UA-XXXXX-X              #Google Analytics ID
 sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
 # END
 # CHOOSE YOUR PREFERENCE
-pygments:    false
+pygments:    true
 markdown:    maruku
 permalink:   pretty
 # END

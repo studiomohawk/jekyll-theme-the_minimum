@@ -1,18 +1,19 @@
 {% include system_head.html %}
 <body class="{{ page.layout }}">
 	<div id="page">
-		<header id="head">
-		<div class="head_inner">
-			<ul>
-				<li class="logo"><a href="/">{{ site.sitename }}</a></li>
-				<li class="tagline">{{ site.tagline }}</li>
-			</ul>
-		</div>
-		</header><!-- id="head" -->
+		{% include header.html %}
 		<div id="main" role="main">
 			<div class="main_inner">
 				<header class="hd_article">
 					<h1>{{ page.title }}</h1>
+						<div class="meta">
+							<date title="{{ page.date | date_to_xmlschema }}">
+								<span class="published">Published: </span>
+								<span class="day">{{ page.date | date: '%d' }}</span>
+								<span class="month"><abbr>{{ page.date | date: '%b' }}</abbr></span>
+								<span class="year">{{ page.date | date: '%Y' }}</span>
+							</date>
+						</div>
 				</header>
 				<article class="the_article">
 				<div class="article_inner">
@@ -31,13 +32,7 @@
 		{% endif %}
 		</ul>
 		</nav>
-		<footer id="foot">
-		<div class="foot_inner">
-			<div class="hasGrid">
-				<div class="grid grid-6">{% include about.html %}</div>
-				<div class="grid grid-6">{% include misc.html %}</div>
-			</div>
-		</footer><!-- id="foot" -->
+		{% include footer.html %}
 	</div><!-- id="page" -->
 	{% include system_foot.html %}
 </body>

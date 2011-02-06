@@ -8,17 +8,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="">
 	<link href="http://your.site.comatom.xml" rel="alternate" title="the_minimum | themes for jekyll" type="application/atom+xml">
-	<link rel="stylesheet" href="/css/master.css">
+	<link rel="stylesheet" media="all" href="/css/master.css">
 	<script src="/js/modernizr.js"></script>
 	
 		<title>001_post_example | the_minimum | themes for jekyll</title>
-		<meta name="description" content="This is a post example. Below I&#8217;ve placed commonly used markdown syntax so that you can see how I&#8217;ve designed each elements. Note: If you&#8217;d...">
+		<meta name="description" content="This is a post example.Below I&#8217;ve placed commonly used markdown syntax so that you can see how I&#8217;ve designed each elements. This is h2 heading...">
 	
 </head>
 
 <body class="post">
 	<div id="page">
-		<header id="head">
+				<header id="head">
 		<div class="head_inner">
 			<ul>
 				<li class="logo"><a href="/">the_minimum</a></li>
@@ -26,20 +26,23 @@
 			</ul>
 		</div>
 		</header><!-- id="head" -->
+
 		<div id="main" role="main">
 			<div class="main_inner">
 				<header class="hd_article">
 					<h1>001_post_example</h1>
+						<div class="meta">
+							<date title="2011-01-08T00:00:00+09:00">
+								<span class="published">Published: </span>
+								<span class="day">08</span>
+								<span class="month"><abbr>Jan</abbr></span>
+								<span class="year">2011</span>
+							</date>
+						</div>
 				</header>
 				<article class="the_article">
 				<div class="article_inner">
-					<div class="content"><p><em>This is a post example.</em> Below I&#8217;ve placed commonly used markdown syntax so that you can see how I&#8217;ve designed each elements. <em>Note:</em> If you&#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:</p>
-
-<ul>
-<li>.left - image float left</li>
-
-<li>.right - image float right If you like to use bigger image, then you don&#8217;t need to give class name at all. image is still get nice border around it and center it.</li>
-</ul>
+					<div class="content"><p><em>This is a post example.</em><br />Below I&#8217;ve placed commonly used markdown syntax so that you can see how I&#8217;ve designed each elements.</p>
 
 <h2 id='this_is_h2_heading'>This is h2 heading</h2>
 
@@ -51,9 +54,13 @@
 
 <h6 id='this_is_h6_heading'>This is h6 heading</h6>
 
-<p><a href='https://github.com/studiomohawk'>This link</a> commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<h2 id='paragraph_and_link'>Paragraph and link</h2>
+
+<p><a href='https://github.com/studiomohawk'>This is a link</a> commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
 <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
+<h2 id='list'>List</h2>
 
 <ul>
 <li>list one</li>
@@ -79,11 +86,97 @@
 <li>list five</li>
 </ol>
 
+<h2 id='blockquote'>Blockquote</h2>
+
+<blockquote>
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec sed odio dui.<br />Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+</blockquote>
+
+<h2 id='image'>Image</h2>
+
+<p>There are 3 pre-defined class for images.</p>
+
+<ol>
+<li><strong>.left</strong> = Image floats left</li>
+
+<li><strong>.right</strong> = Image floats right</li>
+
+<li><strong>.huge</strong> = If your image is big then you should use this class</li>
+</ol>
+
+<p>examples below apply class accordingly.</p>
+
 <p><img class='left' src='http://placehold.it/100x100' alt='Image' /> Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec sed odio dui.</p>
 
 <p><img class='right' src='http://placehold.it/100x100' alt='Image' /> Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
 
-<p><img src='http://placehold.it/580x300' alt='Image' /> Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p></div>
+<p><img class='huge' src='http://placehold.it/1048x300' alt='Image' /></p>
+
+<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+
+<h2 id='syntax_highlight_you_need_to_have_pygment_on_to_use_this'>Syntax highlight *You need to have pygment on to use this</h2>
+<div class='highlight'><pre><code class='css'><span class='nc'>.highlight</span>  <span class='p'>{</span> <span class='k'>background</span><span class='o'>:</span> <span class='m'>#ffffff</span><span class='p'>;</span> <span class='p'>}</span>
+<span class='nc'>.highlight</span> <span class='nc'>.c</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999988</span><span class='p'>;</span> <span class='k'>font-style</span><span class='o'>:</span> <span class='k'>italic</span> <span class='p'>}</span> <span class='c'>/* Comment */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.err</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#a61717</span><span class='p'>;</span> <span class='k'>background-color</span><span class='o'>:</span> <span class='m'>#e3d2d2</span> <span class='p'>}</span> <span class='c'>/* Error */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.k</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Keyword */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.o</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Operator */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.cm</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999988</span><span class='p'>;</span> <span class='k'>font-style</span><span class='o'>:</span> <span class='k'>italic</span> <span class='p'>}</span> <span class='c'>/* Comment.Multiline */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.cp</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999999</span><span class='p'>;</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Comment.Preproc */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.c1</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999988</span><span class='p'>;</span> <span class='k'>font-style</span><span class='o'>:</span> <span class='k'>italic</span> <span class='p'>}</span> <span class='c'>/* Comment.Single */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.cs</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999999</span><span class='p'>;</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span><span class='p'>;</span> <span class='k'>font-style</span><span class='o'>:</span> <span class='k'>italic</span> <span class='p'>}</span> <span class='c'>/* Comment.Special */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gd</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#000000</span><span class='p'>;</span> <span class='k'>background-color</span><span class='o'>:</span> <span class='m'>#ffdddd</span> <span class='p'>}</span> <span class='c'>/* Generic.Deleted */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gd</span> <span class='nc'>.x</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#000000</span><span class='p'>;</span> <span class='k'>background-color</span><span class='o'>:</span> <span class='m'>#ffaaaa</span> <span class='p'>}</span> <span class='c'>/* Generic.Deleted.Specific */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.ge</span> <span class='p'>{</span> <span class='k'>font-style</span><span class='o'>:</span> <span class='k'>italic</span> <span class='p'>}</span> <span class='c'>/* Generic.Emph */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gr</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#aa0000</span> <span class='p'>}</span> <span class='c'>/* Generic.Error */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gh</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999999</span> <span class='p'>}</span> <span class='c'>/* Generic.Heading */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gi</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#000000</span><span class='p'>;</span> <span class='k'>background-color</span><span class='o'>:</span> <span class='m'>#ddffdd</span> <span class='p'>}</span> <span class='c'>/* Generic.Inserted */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gi</span> <span class='nc'>.x</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#000000</span><span class='p'>;</span> <span class='k'>background-color</span><span class='o'>:</span> <span class='m'>#aaffaa</span> <span class='p'>}</span> <span class='c'>/* Generic.Inserted.Specific */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.go</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#888888</span> <span class='p'>}</span> <span class='c'>/* Generic.Output */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gp</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#555555</span> <span class='p'>}</span> <span class='c'>/* Generic.Prompt */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gs</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Generic.Strong */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gu</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#aaaaaa</span> <span class='p'>}</span> <span class='c'>/* Generic.Subheading */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.gt</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#aa0000</span> <span class='p'>}</span> <span class='c'>/* Generic.Traceback */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.kc</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Keyword.Constant */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.kd</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Keyword.Declaration */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.kp</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Keyword.Pseudo */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.kr</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Keyword.Reserved */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.kt</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#445588</span><span class='p'>;</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Keyword.Type */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.m</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009999</span> <span class='p'>}</span> <span class='c'>/* Literal.Number */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.s</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.na</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#008080</span> <span class='p'>}</span> <span class='c'>/* Name.Attribute */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.nb</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#0086B3</span> <span class='p'>}</span> <span class='c'>/* Name.Builtin */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.nc</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#445588</span><span class='p'>;</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Name.Class */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.no</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#008080</span> <span class='p'>}</span> <span class='c'>/* Name.Constant */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.ni</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#800080</span> <span class='p'>}</span> <span class='c'>/* Name.Entity */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.ne</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#990000</span><span class='p'>;</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Name.Exception */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.nf</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#990000</span><span class='p'>;</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Name.Function */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.nn</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#555555</span> <span class='p'>}</span> <span class='c'>/* Name.Namespace */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.nt</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#000080</span> <span class='p'>}</span> <span class='c'>/* Name.Tag */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.nv</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#008080</span> <span class='p'>}</span> <span class='c'>/* Name.Variable */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.ow</span> <span class='p'>{</span> <span class='k'>font-weight</span><span class='o'>:</span> <span class='k'>bold</span> <span class='p'>}</span> <span class='c'>/* Operator.Word */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.w</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#bbbbbb</span> <span class='p'>}</span> <span class='c'>/* Text.Whitespace */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.mf</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009999</span> <span class='p'>}</span> <span class='c'>/* Literal.Number.Float */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.mh</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009999</span> <span class='p'>}</span> <span class='c'>/* Literal.Number.Hex */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.mi</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009999</span> <span class='p'>}</span> <span class='c'>/* Literal.Number.Integer */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.mo</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009999</span> <span class='p'>}</span> <span class='c'>/* Literal.Number.Oct */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.sb</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Backtick */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.sc</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Char */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.sd</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Doc */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.s2</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Double */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.se</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Escape */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.sh</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Heredoc */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.si</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Interpol */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.sx</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Other */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.sr</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009926</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Regex */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.s1</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#d14</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Single */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.ss</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#990073</span> <span class='p'>}</span> <span class='c'>/* Literal.String.Symbol */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.bp</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#999999</span> <span class='p'>}</span> <span class='c'>/* Name.Builtin.Pseudo */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.vc</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#008080</span> <span class='p'>}</span> <span class='c'>/* Name.Variable.Class */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.vg</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#008080</span> <span class='p'>}</span> <span class='c'>/* Name.Variable.Global */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.vi</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#008080</span> <span class='p'>}</span> <span class='c'>/* Name.Variable.Instance */</span>
+<span class='nc'>.highlight</span> <span class='nc'>.il</span> <span class='p'>{</span> <span class='k'>color</span><span class='o'>:</span> <span class='m'>#009999</span> <span class='p'>}</span> <span class='c'>/* Literal.Number.Integer.Long */</span>
+</code></pre>
+</div></div>
 				</div>
 				</article>
 			</div>
@@ -97,9 +190,9 @@
 		</ul>
 		</nav>
 		<footer id="foot">
-		<div class="foot_inner">
-			<div class="hasGrid">
-				<div class="grid grid-6"><h4>about</h4>
+<div class="foot_inner">
+	<div class="hasGrid">
+		<div class="left alpha grid-6"><h4>about</h4>
 <p>
 _layouts is a theme gallary for Jekyll powered websites. Themes are created by me, Yuya Saito who is an web designer/frontend developer in Tokyo, Japan.<br>
 Unless otherwise noted, themes here are all MIT licenced which means you can do whatever you want as long as you don't sue me. <br>
@@ -107,7 +200,7 @@ You can read more detail on my github repository.<br>
 And of course, this site is powerd by <a href="https://github.com/mojombo/jekyll">jekyll</a>.<br>
 </p>
 </div>
-				<div class="grid grid-6"><h4>if you like what i've done</h4>
+		<div class="right omega grid-6"><h4>if you like what i've done</h4>
 <ul>
 	<li>you could give me an invite for <del><a href="http://forrst.com/">Forrst</a></del> <a href="http://forrst.com/people/studiomohawk">I've got it</a>. Thanks! or <a href="http://dribbble.com/">Dribbble</a> Now <a href="http://dribbble.com/cssradar">I'm a prospect</a></li>
     <li>or you can follow me at <a href="http://twitter.com/#!/cssradar" rel="me">Twitter</a></li>
@@ -117,15 +210,16 @@ And of course, this site is powerd by <a href="https://github.com/mojombo/jekyll
 	<li><a href="http://twitter.com/#!/cssradar" rel="me">cssradar@twitter</a></li>
 </ul>
 </div>
-			</div>
-		</footer><!-- id="foot" -->
+	</div>
+</footer><!-- id="foot" -->
+
 	</div><!-- id="page" -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
 <script src="/js/less-grid.js"></script>
 <!-- You may want to stats with your blog if not you should erase this file and remove inculude link from 
 You don't need to edit this file, you can set your ID at _config.yml -->
 <script>
-	var _gaq = [['_setAccount', ''], ['_trackPageview']];
+	var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
 	(function(d, t) {
 		var g = d.createElement(t),
         s = d.getElementsByTagName(t)[0];

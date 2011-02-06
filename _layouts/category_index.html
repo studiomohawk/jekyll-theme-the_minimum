@@ -1,0 +1,23 @@
+---
+layout: archive
+title: Category
+---
+<header>
+<div class="head-inner">
+	<h1>{{ page.title }}</h1>
+</div>
+</header>
+{% for post in site.categories[page.category] %}
+<article>
+	<div class="article-inner">
+		<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+		<div class="meta">
+			<date title="{{ post.date | date_to_xmlschema }}">
+				<span class="day">{{ post.date | date: '%d' }}</span>
+				<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
+				<span class="year">{{ post.date | date: '%Y' }}</span>
+			</date>
+		</div>
+	</div>
+	</article>
+{% endfor %}

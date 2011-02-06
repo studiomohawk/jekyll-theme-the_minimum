@@ -3,13 +3,16 @@
 * Author: Yuya Saito @ [\_layout](http://layouts.studiomohawk.com)
 * Version: 1.5
 
-## About the\_minimum?
+## About the\_minimum
 
-
+* Using HTML5 and CSS3 for clean semantic code
+* Responsive web design which means design adapt screen size
+* Main stylesheet(style.less) is written with LESS
+* Rakefile to minify css
 
 ## This theme is free but some strings are atteched
 
-* Edit \_config.yml - open the file and edit whare you need.
+* Edit \_config.yml - open the file and edit whare you need
 * Then you can start using it for free
 
 ## How to use?

@@ -10,4 +10,4 @@ pygments:    true
 markdown:    maruku
 permalink:   pretty
 # END
-exclude: LICENSE, README.markdown
+exclude: LICENSE, README.markdown, Rakefile

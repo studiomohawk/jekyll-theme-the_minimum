@@ -6,7 +6,12 @@
 		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://your.site.com/2011/01/15/001-post-exsample/</loc>
+  <loc>http://your.site.com/2011/01/16/001-post-exsample/</loc>
+  <lastmod>2011-01-30T05:06:30+00:00</lastmod>
+</url>
+
+<url>
+  <loc>http://your.site.com/2011/01/15/999-post-exsample/</loc>
   <lastmod>2011-01-30T05:06:30+00:00</lastmod>
 </url>
 

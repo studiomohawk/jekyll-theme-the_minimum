@@ -4,15 +4,15 @@
  <title>the_minimum | themes for jekyll</title>
  <link href="http://your.site.com/atom.xml" rel="self"/>
  <link href="http://your.site.com"/>
- <updated>2011-02-07T01:11:18+09:00</updated>
+ <updated>2011-02-07T09:45:59+09:00</updated>
  <id>http://layouts.studiomohawk.com/</id>
 
  
  <entry>
    <title>001_post_example</title>
-   <link href="http://your.site.com/2011/01/15/001-post-exsample/"/>
-   <updated>2011-01-15T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/15/001-post-exsample</id>
+   <link href="http://your.site.com/2011/01/16/001-post-exsample/"/>
+   <updated>2011-01-16T00:00:00+09:00</updated>
+   <id>http://your.site.com/2011/01/16/001-post-exsample</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt;&lt;br /&gt;Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements.&lt;/p&gt;
 
 &lt;h2 id='this_is_h2_heading'&gt;This is h2 heading&lt;/h2&gt;
@@ -148,6 +148,64 @@
 &lt;span class='nc'&gt;.highlight&lt;/span&gt; &lt;span class='nc'&gt;.il&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt; &lt;span class='k'&gt;color&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='m'&gt;#009999&lt;/span&gt; &lt;span class='p'&gt;}&lt;/span&gt; &lt;span class='c'&gt;/* Literal.Number.Integer.Long */&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>999_post_example</title>
+   <link href="http://your.site.com/2011/01/15/999-post-exsample/"/>
+   <updated>2011-01-15T00:00:00+09:00</updated>
+   <id>http://your.site.com/2011/01/15/999-post-exsample</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;.left - image float left&lt;/li&gt;
+
+&lt;li&gt;.right - image float right If you like to use bigger image, then you don&amp;#8217;t need to give class name at all. image is still get nice border around it and center it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='this_is_h2_heading'&gt;This is h2 heading&lt;/h2&gt;
+
+&lt;h3 id='this_is_h3_heading'&gt;This is h3 heading&lt;/h3&gt;
+
+&lt;h4 id='this_is_h4_heading'&gt;This is h4 heading&lt;/h4&gt;
+
+&lt;h5 id='this_is_h5_heading'&gt;This is h5 heading&lt;/h5&gt;
+
+&lt;h6 id='this_is_h6_heading'&gt;This is h6 heading&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href='https://github.com/studiomohawk'&gt;This link&lt;/a&gt; commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;p&gt;Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list one&lt;/li&gt;
+
+&lt;li&gt;list two&lt;/li&gt;
+
+&lt;li&gt;list three&lt;/li&gt;
+
+&lt;li&gt;list four&lt;/li&gt;
+
+&lt;li&gt;list five&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;list one&lt;/li&gt;
+
+&lt;li&gt;list two&lt;/li&gt;
+
+&lt;li&gt;list three&lt;/li&gt;
+
+&lt;li&gt;list four&lt;/li&gt;
+
+&lt;li&gt;list five&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img class='left' src='http://placehold.it/100x100' alt='Image' /&gt; Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec sed odio dui.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class='right' src='http://placehold.it/100x100' alt='Image' /&gt; Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='http://placehold.it/580x300' alt='Image' /&gt; Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/p&gt;</content>
  </entry>
  
  <entry>

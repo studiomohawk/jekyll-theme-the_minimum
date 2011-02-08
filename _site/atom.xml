@@ -4,15 +4,15 @@
  <title>the_minimum | themes for jekyll</title>
  <link href="http://your.site.com/atom.xml" rel="self"/>
  <link href="http://your.site.com"/>
- <updated>2011-02-07T09:45:59+09:00</updated>
+ <updated>2011-02-08T10:21:59+09:00</updated>
  <id>http://layouts.studiomohawk.com/</id>
 
  
  <entry>
    <title>001_post_example</title>
-   <link href="http://your.site.com/2011/01/16/001-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/16/001-post-example/"/>
    <updated>2011-01-16T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/16/001-post-exsample</id>
+   <id>http://your.site.com/2011/01/16/001-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt;&lt;br /&gt;Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements.&lt;/p&gt;
 
 &lt;h2 id='this_is_h2_heading'&gt;This is h2 heading&lt;/h2&gt;
@@ -152,9 +152,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/15/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/15/999-post-example/"/>
    <updated>2011-01-15T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/15/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/15/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -210,9 +210,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/14/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/14/999-post-example/"/>
    <updated>2011-01-14T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/14/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/14/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -268,9 +268,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/13/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/13/999-post-example/"/>
    <updated>2011-01-13T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/13/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/13/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -326,9 +326,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/12/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/12/999-post-example/"/>
    <updated>2011-01-12T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/12/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/12/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -384,9 +384,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/11/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/11/999-post-example/"/>
    <updated>2011-01-11T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/11/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/11/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -442,9 +442,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/10/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/10/999-post-example/"/>
    <updated>2011-01-10T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/10/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/10/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -500,9 +500,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/09/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/09/999-post-example/"/>
    <updated>2011-01-09T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/09/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/09/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -558,9 +558,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/07/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/07/999-post-example/"/>
    <updated>2011-01-07T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/07/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/07/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -616,9 +616,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/06/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/06/999-post-example/"/>
    <updated>2011-01-06T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/06/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/06/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -674,9 +674,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/05/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/05/999-post-example/"/>
    <updated>2011-01-05T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/05/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/05/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -732,9 +732,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/04/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/04/999-post-example/"/>
    <updated>2011-01-04T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/04/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/04/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -790,9 +790,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/03/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/03/999-post-example/"/>
    <updated>2011-01-03T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/03/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/03/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -848,9 +848,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/02/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/02/999-post-example/"/>
    <updated>2011-01-02T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/02/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/02/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -906,9 +906,9 @@
  
  <entry>
    <title>999_post_example</title>
-   <link href="http://your.site.com/2011/01/01/999-post-exsample/"/>
+   <link href="http://your.site.com/2011/01/01/999-post-example/"/>
    <updated>2011-01-01T00:00:00+09:00</updated>
-   <id>http://your.site.com/2011/01/01/999-post-exsample</id>
+   <id>http://your.site.com/2011/01/01/999-post-example</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is a post example.&lt;/em&gt; Below I&amp;#8217;ve placed commonly used markdown syntax so that you can see how I&amp;#8217;ve designed each elements. &lt;em&gt;Note:&lt;/em&gt; If you&amp;#8217;d like to use image in your post, you should add class name for it. Not sure how? Open this file located at _posts dir. There are 2 predefined class for image:&lt;/p&gt;
 
 &lt;ul&gt;

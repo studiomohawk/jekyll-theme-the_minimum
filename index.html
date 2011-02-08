@@ -6,7 +6,7 @@ desctiption: this is where your meta description for top page.
 <nav>
 <ul class="posts">
 	{% for post in site.posts limit:10 %}
-	<li class="list-{{ forloop.index }}">
+	<li>
 	<a href="{{ post.url }}" class="h3">{{ post.title }}</a>
 	<small>
 		<date>{{ post.date | date_to_string }}</date>

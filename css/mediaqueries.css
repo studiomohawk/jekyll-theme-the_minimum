@@ -103,5 +103,6 @@ body.post .content img.huge {
 		width: 228px;
 	}
 	body.post .content img.huge { max-width: 208px; }
+	.the_article .posts li small { display: none; }
 	#foot .hasGrid div { width: 228px; }
 }

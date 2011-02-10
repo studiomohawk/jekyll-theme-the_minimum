@@ -81,14 +81,10 @@ a:hover {
 .the_article img.right { margin-left: 12px; }
 body.home .the_article { background: none; }
 body.home .the_article .posts li {
-  border-bottom: 1px dotted #a7a7a7;
   list-style: none;
   margin-bottom: 24px;
   padding-bottom: 6px;
   position: relative;
-  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
-  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
 }
 body.home .the_article .posts li small {
   position: absolute;
@@ -96,13 +92,13 @@ body.home .the_article .posts li small {
   top: 1px;
 }
 body.home .the_article .posts li small date { margin-left: 12px; }
-body.home .the_article .posts li:last-child { margin-bottom: 0; }
-body.home .the_article .posts li.backnumber {
-  border: 0;
-  -webkit-box-shadow: 0 0 0;
-  -moz-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
+body.home .the_article .posts .article-link {
+  border-bottom: 1px dotted #a7a7a7;
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
 }
+body.home .the_article .posts li:last-child { margin-bottom: 0; }
 body.post .hd_article h1 { margin-bottom: 0; }
 body.post .hd_article .meta { margin-bottom: 24px; }
 body.post .content h1 a:link { border: 0; }

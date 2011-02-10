@@ -105,29 +105,25 @@ a:hover {
 /* If home */
 body.home {
 	.the_article { background: none;
-	.posts li {
-		border-bottom: 1px dotted #a7a7a7;
-		list-style: none;
-		margin-bottom: 24px;
-		padding-bottom: 6px;
-		position: relative;
-		-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.6);
-		   -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.6);
-	            box-shadow: 0px 1px 0px rgba(255,255,255,0.6);
-		small {
-			position: absolute;
-				right: 0;
-			top: 1px;
-			date { margin-left: 12px; }
+		.posts li {
+			list-style: none;
+			margin-bottom: 24px;
+			padding-bottom: 6px;
+			position: relative;
+				small {
+					position: absolute;
+						right: 0;
+					top: 1px;
+					date { margin-left: 12px; }
+				}
 		}
-	}
-	.posts li:last-child { margin-bottom: 0; }
-	.posts li.backnumber {
-		border: 0;
-		-webkit-box-shadow: 0 0 0;
-		   -moz-box-shadow: 0 0 0;
-	            box-shadow: 0 0 0;
-	}
+		.posts .article-link {
+			border-bottom: 1px dotted #a7a7a7;
+			-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+			   -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+				    box-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+		}
+		.posts li:last-child { margin-bottom: 0; }
 	}
 }
 /* If post */

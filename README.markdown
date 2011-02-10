@@ -10,7 +10,7 @@
 * Main stylesheet(style.less) is written with LESS
 * Rakefile to minify css (rake juicer:css)
 
-## This theme is free but some strings are atteched
+## This theme is free but some strings are attached
 
 * Edit \_config.yml - open the file and edit whare you need
 * Then you can start using it for free

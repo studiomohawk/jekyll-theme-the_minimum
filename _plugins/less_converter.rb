@@ -3,6 +3,8 @@ module Jekyll
   # at the beginning of the file.
   # .less -> .css
   class LessConverter < Converter
+    safe true
+    priority :low
     pygments_prefix "\n"
     pygments_suffix "\n"
 
@@ -33,4 +35,3 @@ module Jekyll
       end
     end
   end
-end

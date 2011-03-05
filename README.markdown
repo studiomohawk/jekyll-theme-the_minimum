@@ -7,11 +7,12 @@
 
 * Using HTML5 and CSS3 for clean semantic code
 * Using Responsive web design which means design adapts screen size
-* Main stylesheet(style.less) is written with LESS
+* Main stylesheet(style.less) is written with LESS(You need less installed)
 * Rakefile to minify css (rake juicer:css)
 
 ## This theme is free but some strings are attached
 
+* Install less: sudo gem install less
 * Edit \_config.yml - open the file and edit where you need
 * Then you can start using it for free
 

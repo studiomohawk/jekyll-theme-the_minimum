@@ -1,14 +1,23 @@
 * Theme Name: the\_minimum
 * Description: A minimumlist theme for [jekyll](https://github.com/mojombo/jekyll).
-* Author: Yuya Saito @ [\_layout](http://layouts.studiomohawk.com)
+* Author: Yuya Saito @ [\_layout](http://www.layouts-the.me/)
 * Version: 1.5.1
 
 ## About the\_minimum
 
 * Using HTML5 and CSS3 for clean semantic code
 * Using Responsive web design which means design adapts screen size
-* Main stylesheet(style.less) is written with LESS(You need less installed)
-* Rakefile to minify css (rake juicer:css)
+* Main stylesheet(style.less) is written with LESS(**You need less installed**)
+* Rakefile to minify css (rake juicer:css).
+  
+  If you need to optimize change master.css to master.min at \_includes/system\_head.html  
+  If you ever change anything, **you have to type** command rake juicer:css to
+  rebuild minified css.  
+  I'm trying to figure out how to regex strings in html via rake so that you
+  don't have to do this manually, if you know how please help me. Thanks.
+
+  **Default is NOT linking to minified CSS, you should minifiy css to reduce
+  http requests**
 
 ## This theme is free but some strings are attached
 
@@ -22,6 +31,7 @@
 * Most of things you can do with this theme is presented at \_posts/001-post-example.markdown
 * If you want to use image in your article, theme includes [jekyll-postfiles](https://github.com/indirect/jekyll-postfiles) plugin go visit the page to learn how to use it
 * If you want add styles, you should edit style.less. if you need to add stylesheet then remember to put stylesheet file name in master.css
+* If you need to know what is LESS then go to [http://lesscss.org/](http://lesscss.org/)
 * If you have questions, you can do so at [issue page](https://github.com/studiomohawk/jekyll-theme-the_minimum/issues)
 
 ## Code I didn't write

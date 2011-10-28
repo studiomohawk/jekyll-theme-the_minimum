@@ -29,7 +29,7 @@
 body {
 	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
 	font-size: 100%;
-	line-height: 1.5; 
+	line-height: 1.5;
 }
 /* Headings
 -------------------------------------------------------- */
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5,h6 {
 	font-weight: bold;
 	text-shadow: 0px 1px 0px #fff;
 }
-h1, .h1 { 
+h1, .h1 {
 	font-size:2em;
 	line-height: 1.5;
 	margin: 0.75em 0;

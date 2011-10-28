@@ -9,10 +9,10 @@
 * Using Responsive web design which means design adapts screen size
 * Main stylesheet(style.less) is written with LESS(**You need less installed**)
 * Rakefile to minify css (rake juicer:css).
-  
-  If you need to optimize change master.css to master.min at \_includes/system\_head.html  
+
+  If you need to optimize change master.css to master.min at \_includes/system\_head.html
   If you ever change anything, **you have to type** command rake juicer:css to
-  rebuild minified css.  
+  rebuild minified css.
   I'm trying to figure out how to regex strings in html via rake so that you
   don't have to do this manually, if you know how please help me. Thanks.
 
@@ -43,7 +43,7 @@
 * [less\_converter.rb](https://github.com/tatey/jekyll_plugins/blob/master/less_converter.rb): MIT License
 * [jekyll-postfiles](https://github.com/indirect/jekyll-postfiles): ???(Some
   kind of open source since it's in github)
- 
+
 ### HTML, CSS, JavaScript
 
 * [Modernizr](http://www.modernizr.com/): MIT/BSD license

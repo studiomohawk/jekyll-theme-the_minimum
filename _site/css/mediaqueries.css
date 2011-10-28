@@ -5,7 +5,7 @@
 /*	Default 8-column layout
 	60 px columns, 24 px gutters, 60 px margins, 768 px total
 	---------------------------------------------------------
-	1     2      3      4      5      6      7      8     
+	1     2      3      4      5      6      7      8
 	60px  144px  228px  312px  396px  480px  564px  648px	*/
 
 body {
@@ -42,7 +42,7 @@ body.post .content img.huge {
 	.hd_article,
 	.article_inner,
 	.pagenation ul,
-	.foot_inner { 
+	.foot_inner {
 		padding: 0 72px 0;
 		width: 1068px;
 	}
@@ -65,7 +65,7 @@ body.post .content img.huge {
 	body {
 		padding: 30px 0 0;
 		/* Prevents Mobile Safari from bumping up font sizes in landscape */
-		-webkit-text-size-adjust: 100%; 
+		-webkit-text-size-adjust: 100%;
 	}
 	.logo { font-size: 4.0em; }
 	.head_inner,

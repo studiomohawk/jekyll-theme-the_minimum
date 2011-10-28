@@ -3,7 +3,7 @@ layout: post
 title: 001_post_example
 ---
 
-*This is a post example.*  
+*This is a post example.*
 Below I've placed commonly used markdown syntax so that you can see how I've designed each elements.
 
 ##This is h2 heading
@@ -38,7 +38,7 @@ Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus v
 
 ## Blockquote
 
-> Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec sed odio dui.  
+> Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec sed odio dui.
 > Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
 ## Image
@@ -49,7 +49,7 @@ There are 3 pre-defined class for images.
 2. **.right** = Image floats right
 3. **.huge** = If your image is big then you should use this class
 
-examples below apply class accordingly. 
+examples below apply class accordingly.
 
 ![Image](http://placehold.it/100x100){:class='left'}
 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec sed odio dui.
